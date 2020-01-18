@@ -1,0 +1,21 @@
+{
+  "language": "Solidity",
+  "sources": {
+    "A.sol": {
+      "urls": ["contracts/A.sol"]
+    },
+    "B.sol": {
+      "urls": ["contracts/B.sol"]
+    },
+    "C.sol": {
+      "urls": ["contracts/C.sol"]
+    }
+  },
+  "settings": {
+    "remappings": ["remapped=./contracts"],
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    }
+  }
+}
